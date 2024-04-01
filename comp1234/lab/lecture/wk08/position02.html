@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position02</title>
+  <style>
+    figure{
+      position: relative;
+      margin: 40px auto;
+      width: fit-content;
+    }
+    figcaption{
+      background-color: purple;
+      color: white;
+      position: absolute;
+      bottom: 15px;
+      width: 100%;
+    }
+    .overlay{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+    }
+    .overlay:hover{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+<h1>position overlay</h1>
+<figure><img src="assets/img/mypicture.jpg" alt="Photo">
+  <figcaption>photo</figcaption>
+  <img class="overlay" src="assets/img/banner.png" alt="banner">
+</figure>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!--
+google font - link in B2L
+
+**** to link the font in the css page:
+@font-face{
+font-family: "headerFont"
+src: url("../fonts/FontName");
+
+}
+header{
+font-family: headerFont, sens-serif;
+
+**** how to make a MENU:
+<ul>
+
+<li><a class="buttons" href="#bottom">Bottom of the page‹/a><Li>
+
+<li>‹a class="buttons" href="#top">Top of the page‹/a><Li>
+
+<li>‹a class="buttons" href="#infoSection">Info Section‹/a><Li>
+
+<li>‹a class="buttons" href="#ListSection">List Section</a><Li>
+
+<li>‹a class="buttons" href="#imageSection">Image Section‹/a><Li>
+
+<li>‹a class="buttons" href="#loremSection">Lorem Section</a><Li>
+
+nav{
+position: sticky;
+top: 2px
+z-index: 1;
+background-color: purple;
+
+nav>ul{
+list-style-type: none;
+padding: 0;
+overflow: hidden;
+margin:0 auto;
+width: fit-content;
+}
+
+nav>ul>li>a{
+text-decoration: none;
+color: tan;
+padding: 14px 16px;
+text-align: center;
+display: block;
+}
+
+nav>li{
+float: left;
+}
+
+main{
+clear: both;
+}
+
+nav li>a: hover{
+background-color: darkpurple;
+}
+
+**** zebra
+#listSection ul>li: nth-child(2n-1) or even or odd or 2n-1{
+background-color: pink;
+width: fit-content or 50% or whatever
+}
+
+#listSection ul>li: nth-child(even) or even or odd or 2n-1{
+background-color: white;
+}

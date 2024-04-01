@@ -1,0 +1,77 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+body{
+    margin-top: 150px;
+    background-color: grey;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 97%;
+    background-color: dimgrey;
+    margin: 0 auto;
+    border: black solid 5px;
+    overflow: hidden;
+}
+.logo{
+    width: 100px;
+    float: left;
+    border: pink solid 5px;
+}
+h1{
+    text-align: center;
+}
+.img_product{
+    float: left;
+    width: 250px;
+    height: 280px;
+    display: inline-block;
+}
+.img_product1, .img_product2{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+figure{
+    text-align: center;
+}
+.p1{
+    margin-top: 125px;
+    padding: auto;
+}
+.p2{
+    margin: 0 auto;
+}
+nav ul{ /* menu position */
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 50%;
+}
+nav li{ /* menu position inline */
+    display: inline;
+
+}
+nav a{ /* menu color */
+    text-decoration: none;
+    color: black;
+}
+nav{
+    margin-top: 50px;
+}
+h3{
+    /*margin-top: 150px;*/
+}
+section>ol>li:nth-child(even){ /*zebra 1*/
+    background-color: lawngreen;
+    width: fit-content;
+}
+.button:hover{ /* purchase button */
+    background-color: black
+}
+section>ul>li:nth-child(even){ /*zebra 2*/
+    background-color: lawngreen;
+    width: fit-content;
+}

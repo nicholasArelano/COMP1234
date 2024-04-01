@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a basic web page. We are going to learn a img tag, anchor tag, relative and absolute references, heading and paragraphs.">
+    <meta name="keywords" content="HTML, relative, absolute, anchor, picture">
+    <meta name="author" content="Nicholas Santos">
+    <title>Basic HTML page for lab 3</title>
+    <style>
+        #idatt {
+            color: red;
+        }
+        ccolor{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<!-- This is where you put your HTML code that is rendered to the screen -->
+<h1>Basic HTML page for lab 3</h1>
+<h2 class="ccolour tagelement">Block and inline elements</h2>
+<p>This is a plain text and it is a block tag.</p>
+<br>
+<br>
+<strong>This is a bold text line</strong>
+<strong>This is also a bold text line</strong>
+<p>
+    This is a
+    <strong>
+        bold text line
+    </strong>
+</p>
+<br>
+<hr>
+<br>
+<h2>Attributes</h2>
+<p id="Idatt">The id attribute allows us to uniquely identify an element/tag and allows us to select that element in CSS or Javascript.</p>
+<p id="bcolour"> The id attribute allows us to uniquely identify an element/tag and allows us to select tha elements in CSS or Javascript.</p>
+<p class="ccolour tagelement">The class attribute allows us to identify more than on element/tag to apply changes using CSS or Javascript</p>
+<p class="ccolour tagelement">The class attribute allows us to identify more than on element/tag to apply changes using CSS or Javascript</p>
+
+<br>
+<hr>
+<br>
+<h2>Links</h2>
+<p>
+    If you need a tutor go see
+    <a href="https://gbc.mobihelp.ca/">mobihelp</a>
+</p>
+<p>
+    One of the better sites for HTML, CSS and JAVASCRIPT is
+    <a href="https://www.w3schools.com">W3 Schools</a>
+</p>
+<p>
+    This is my <a href="../wk02/template.html"> template file using a document relative reference. </a>
+</p>
+<p>
+    This is my <a href="comp1234/lab/exercises/wk02/template.html"> template file using a root relative reference </a>
+</p>
+<p> This is my <a href="/index.html">index.html file from lab 1 using a document relative reference.</a></p>
+</body>
+<img scr="assets/img/cat.jpg" alt="cat winking">
+<img scr="/comp1234/lab/exercise/wk03/assets/img/cat.jpg" alt="cat winking">
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>
