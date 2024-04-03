@@ -10,7 +10,7 @@ let num2= parseFloat(prompt("Choose another number:"));
 //Solving
 operation = prompt("Choose an arithmetic operation ( +. -, *, / )");
     if (operation !=='+' && operation!=='-' && operation!== '*' && operation!== '/') {
-       console.log("Invalid Arithmetic Operation!");
+       alert("Invalid Arithmetic Operation!");
     } else {
         function calculate(num1, num2, operation) {
             switch (operation) {
